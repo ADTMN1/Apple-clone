@@ -17,15 +17,15 @@ function App() {
       <Route path="/" element={<SharedLayout />}>
         {/* Nested routes for main pages */}
         <Route index element={<Main />} />
-        <Route path="cart" element={<Cart />} />
-        <Route path="mac" element={<Mac />} />
-        <Route path="ipad" element={<Ipad />} />
-        <Route path="iphone" element={<Iphone />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/mac" element={<Mac />} />
+        <Route path="/ipad" element={<Ipad />} />
+        <Route path="/iphone" element={<Iphone />} />
         <Route path="/iphone/:productName" element={<Product />} />
-        <Route path="music" element={<Music />} />
-        <Route path="support" element={<Support />} />
-        <Route path="watch" element={<Watch />} />
-        <Route path="tv" element={<Tv />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/watch" element={<Watch />} />
+        <Route path="/tv" element={<Tv />} />
 
         {/* Fallback route for 404 */}
         <Route path="*" element={<Four04 />} />
