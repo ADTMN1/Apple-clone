@@ -1,0 +1,26 @@
+{
+    "title": "Products",
+    "data": [
+      {
+        "id": 9,
+        "product_name": "iPhone 16 PRO",
+        "product_url": "https://backend.memorabid.com/images/articles/27280/c9c64641-dbf1-4f0b-b379-c5cff8febe6b.jpg?w=1200",
+        "product_description": "iPhone 16 Pro features a Grade 5 titanium design with a new, refined microblasted texture.",
+        "starting_price": "$2000"
+      },
+      {
+        "id": 11,
+        "product_name": "iPhone 16",
+        "product_url": "https://cdn.rc-static.com/images/ProductImages/ScaleProducts/0320KN39_Icat_1.jpg",
+        "product_description": "iPhone 16 is built for Apple Intelligence, the personal intelligence system that helps you write, express yourself, and get things done effortlessly.",
+        "starting_price": "$1500"
+      },
+      {
+        "id": 13,
+        "product_name": "iPhone 14",
+        "product_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg",
+        "product_description": "The latest iPhone with advanced features.",
+        "starting_price": "$799"
+      }
+    ]
+  }
